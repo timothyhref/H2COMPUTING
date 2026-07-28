@@ -1,0 +1,15 @@
+<!doctype HTML>
+<head>
+    <title>School Records</title>
+</head>
+<body>
+    <table border = 3>
+        <th>School Records</th>
+        <tr><td>Full Name:</td><td>Screen Name:</td><td>Identity:</td></tr>
+        {% for person in people %}
+            <tr><td>{{person[0]}}</td>
+            <td>{{person[1]}}</td>
+            <td>{{person[2]}}</td></tr>
+        {% endfor %}
+    </table>
+</body>
