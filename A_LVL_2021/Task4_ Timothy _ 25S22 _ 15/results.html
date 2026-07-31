@@ -1,0 +1,15 @@
+<!doctype html>
+<head>
+    <title>Results</title>
+</head>
+<body>
+    <table border = 1>
+        <tr><th>Name Of Competitor</th><th>Results</th></tr>
+        {% for name in names %}
+            <tr><td>{{name[0]}}</td><td>{{name[1]}}</td></tr>
+        {% endfor %}
+    </table>
+    <form action = "{{url_for('index')}}">
+        <button type ='submit'>quit</button>
+    </form>
+</body>

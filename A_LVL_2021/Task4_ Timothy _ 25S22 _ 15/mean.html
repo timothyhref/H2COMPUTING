@@ -1,0 +1,12 @@
+<!doctype html>
+<head>
+    <title>Mean Scores</title>
+</head>
+<body>
+    <table border = 1>
+        <tr><th>Name Of Competitor</th><th>Mean Score Of Competitor</th></tr>
+        {%for person in people%}
+            <tr><td>{{person[0]}}</td><td>{{person[1]}}</td></tr>
+        {% endfor %}
+    </table>
+</body>

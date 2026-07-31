@@ -1,0 +1,12 @@
+<!doctype html>
+<head>
+    <title>List of qualifications</title>
+</head>
+<body>
+    <table border = 1>
+        <tr><th>Competitor Name</th><th>Total Score</th><th>Qualified For Final?</th></tr>
+        {% for person in people %}
+        <tr><td>{{person[0]}}</td><td>{{person[1]}}</td><td>{{person[2]}}</td></tr>
+        {% endfor %}
+    </table>
+</body>
