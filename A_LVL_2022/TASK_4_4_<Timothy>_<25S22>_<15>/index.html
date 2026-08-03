@@ -1,0 +1,12 @@
+<!doctype html>
+<head>
+    <title>Unreturned Books</title>
+</head>
+<body>
+    <table border = 1>
+        <tr><th>Family Name</th><th>Given Name</th><th>Book Title</th></tr>
+        {% for unreturn in unreturned %}
+        <tr><td>{{unreturn[0]}}</td><td>{{unreturn[1]}}</td><td>{{unreturn[2]}}</td></tr>
+        {% endfor %}
+    </table>
+</body>
