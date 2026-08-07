@@ -1,6 +1,6 @@
-<h1 align="center">
-🚀 SUBMISSIONS FOR PAST H2 COMPUTING A LEVEL PAPERS 🚀
-</h1>
+<h2 align="center">
+SUBMISSIONS FOR PAST H2 COMPUTING A LEVEL PAPERS
+</h2>
 
 <table align="center">
 <tr>
