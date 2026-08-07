@@ -1,0 +1,15 @@
+<!doctype html>
+<head>
+    <title>Image Pixel Display</title>
+</head>
+<body>
+    <table border=1>
+    {% for i in range(0,lines|length,9) %}
+        <tr>
+            {%for j in range(0,9)%}
+                <td style="background-color: {{lines[i+j]}};"></td>
+            {%endfor%}
+        </tr>
+    {% endfor %}
+    </table>
+</body>
