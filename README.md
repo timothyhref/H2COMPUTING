@@ -30,31 +30,31 @@ SUBMISSIONS FOR PAST H2 COMPUTING A LEVEL PAPERS
     color: white;
     font-size: 24px;
 ">
-    <th style="padding:15px; color:lime;">✔ Finished Papers</th>
-    <th style="padding:15px; color:tomato;">❌ Unfinished Papers</th>
+    <th style="padding:15px; color:lime;text-align: center;">✔ Finished Papers</th>
+    <th style="padding:15px; color:tomato;text-align: center;">❌ Unfinished Papers</th>
 </tr>
 
-<tr style="background-color:#d9d9d9;">
+<tr style="background-color:#d9d9d9;text-align: center;">
     <td style="padding:12px;">2020 Paper 2 ✅</td>
     <td style="padding:12px;">2024 Paper 2 ⏳</td>
 </tr>
 
-<tr style="background-color:#f2f2f2;">
+<tr style="background-color:#f2f2f2;text-align: center;">
     <td style="padding:12px;">2021 Paper 2 ✅</td>
     <td></td>
 </tr>
 
-<tr style="background-color:#d9d9d9;">
+<tr style="background-color:#d9d9d9;text-align: center;">
     <td style="padding:12px;">2022 Paper 2 ✅</td>
     <td></td>
 </tr>
 
-<tr style="background-color:#f2f2f2;">
+<tr style="background-color:#f2f2f2;text-align: center;">
     <td style="padding:12px;">2023 Paper 2 ✅</td>
     <td></td>
 </tr>
 
-<tr style="background-color:#d9d9d9;">
+<tr style="background-color:#d9d9d9;text-align: center;">
     <td style="padding:12px;">2025 Paper 2 ✅</td>
     <td></td>
 </tr>
