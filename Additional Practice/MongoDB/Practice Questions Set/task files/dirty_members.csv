@@ -1,0 +1,9 @@
+member_id,name,cca,year,active,points
+S201,Olivia,Robotics,1,true,21
+S202,Peter,Infocomm,two,true,25
+,Qistina,Media,1,true,19
+S204,Ravi,Robotics,2,YES,17
+S205,Sarah,Media,1,false,one hundred
+S206,Tan Wei,Infocomm,2,true,102
+S201,Duplicate ID,Debate,2,true,30
+S208,,Robotics,1,true,15

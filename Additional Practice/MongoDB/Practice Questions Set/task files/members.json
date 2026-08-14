@@ -1,0 +1,8 @@
+[
+  {"member_id":"S001","name":"Aisha","cca":"Robotics","year":1,"skills":["Python","CAD"],"active":true,"points":18,"contact":{"email":"aisha@example.edu"}},
+  {"member_id":"S002","name":"Ben","cca":"Infocomm","year":2,"skills":["Python","Web"],"active":true,"points":25,"contact":{"email":"ben@example.edu"}},
+  {"member_id":"S003","name":"Chen","cca":"Robotics","year":2,"skills":["Electronics","CAD"],"active":false,"points":12,"contact":{"email":"chen@example.edu"}},
+  {"member_id":"S004","name":"Divya","cca":"Media","year":1,"skills":["Photography","Video"],"active":true,"points":30,"contact":{"email":"divya@example.edu"}},
+  {"member_id":"S005","name":"Ethan","cca":"Infocomm","year":1,"skills":["Python","Cybersecurity"],"active":true,"points":22},
+  {"member_id":"S006","name":"Farah","cca":"Robotics","year":2,"skills":["Python","Electronics"],"active":true,"points":28,"contact":{"email":"farah@example.edu"}}
+]

@@ -1,0 +1,11 @@
+ticket_id,school_id,category,priority,status,opened_date,assigned_to
+T001,SCH01,Login,high,open,2026-07-01,Ana
+T002,SCH02,Data,medium,closed,2026-07-01,Boon
+T003,SCH01,Network,critical,open,2026-07-02,Ana
+T004,SCH03,Hardware,low,pending,2026-07-03,Chen
+T005,SCH02,Login,medium,closed,2026-07-03,Boon
+T006,SCH03,Data,high,open,2026-07-04,Chen
+T007,SCH01,Hardware,low,closed,2026-07-05,Ana
+T008,SCH02,Network,critical,pending,2026-07-05,Dina
+T009,SCH03,Login,medium,open,2026-07-06,Chen
+T010,SCH01,Data,high,pending,2026-07-07,Dina

@@ -1,0 +1,8 @@
+[
+  {"event_id":"E001","title":"Robot Build Day","cca":"Robotics","date":"2026-08-03","capacity":30,"registered":["S001","S003","S006"],"venue":{"block":"B","room":"Lab 2"},"cancelled":false},
+  {"event_id":"E002","title":"Web Jam","cca":"Infocomm","date":"2026-08-10","capacity":24,"registered":["S002","S005"],"venue":{"block":"C","room":"Comp Lab 1"},"cancelled":false},
+  {"event_id":"E003","title":"Photo Walk","cca":"Media","date":"2026-08-17","capacity":18,"registered":["S004"],"venue":{"block":"A","room":"Studio"},"cancelled":false},
+  {"event_id":"E004","title":"Electronics Clinic","cca":"Robotics","date":"2026-09-02","capacity":12,"registered":["S003","S006"],"venue":{"block":"B","room":"Lab 2"},"cancelled":false},
+  {"event_id":"E005","title":"Cyber Safety Talk","cca":"Infocomm","date":"2026-09-09","capacity":80,"registered":["S002","S005","S006"],"venue":{"block":"D","room":"Hall"},"cancelled":true},
+  {"event_id":"E006","title":"Film Editing Sprint","cca":"Media","date":"2026-09-16","capacity":20,"registered":[],"venue":{"block":"A","room":"Studio"},"cancelled":false}
+]

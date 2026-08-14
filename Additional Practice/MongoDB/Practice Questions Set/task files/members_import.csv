@@ -1,0 +1,9 @@
+member_id,name,cca,year,active,points,skills
+S101,Grace,Media,1,true,16,Video|Photography
+S102,Hafiz,Robotics,2,true,27,Python|Electronics
+S103,Ian,Infocomm,1,false,11,Web|Python
+S104,Jia,Debate,2,true,24,Research|Speaking
+S105,Kumar,Media,1,true,31,Video|Editing
+S106,Li Yan,Robotics,2,true,20,CAD|Electronics
+S107,Maya,Infocomm,1,true,29,Python|Cybersecurity
+S108,Nathan,Debate,2,false,14,Speaking|Writing
