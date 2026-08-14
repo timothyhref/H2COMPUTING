@@ -1,0 +1,27 @@
+Practice Questions
+
+Q1 Explain why enctype="multipart/form-data" must be included in a form used for file uploading, and what would happen if it were omitted.
+
+Q2 State two differences between the GET and POST methods, and explain why POST is preferred for submitting a login form.
+
+Q3 Write an HTML form that allows a user to upload an image file to a Flask route /upload_image using the POST method.
+
+Q4 Given the form from Q3, write the Flask route function upload_image() that:
+
+retrieves the uploaded file
+sanitises its filename using secure_filename()
+saves it into a folder called static/images/
+returns the message "Image saved as <filename>"
+
+Q5 A search page has a form with method="GET" and an input named keyword. Write the Flask route /search that retrieves the keyword value from the URL query string and returns it in a sentence.
+
+Q6 A student writes this Flask route:
+
+python
+@app.route('/upload', methods=['GET'])
+def upload():
+    file = request.files['myfile']
+    file.save('uploads/' + file.filename)
+    return 'Done'
+
+Identify two errors in this code (consider both the route's methods list and security practice).
