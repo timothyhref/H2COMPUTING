@@ -1,0 +1,40 @@
+Q7 (Concept). A student says: "GET requests are never used with forms, only POST is." Explain why this statement is incorrect, giving an example.
+
+Q8 (Code — Flask, query string). Write a Flask route /greet that accepts a GET request with a query string parameter name (e.g. /greet?name=Alex), and returns "Hello, Alex!".
+
+Q9 (Code — HTML + Flask, combined). Write both the HTML form and the Flask route for a page where a user submits their favourite colour using GET, and the server displays: "Your favourite colour is <colour>".
+
+Q10 (Applied — spot the bug). A student writes this to let users download a file based on a route parameter:
+
+python
+@app.route("/download/<string:filename>")
+def download(filename):
+    return send_from_directory("uploads", filename)
+
+This works, but a security-conscious examiner would flag a risk. What could a malicious user pass as filename, and what problem could this cause? (Hint: think about what you flagged in Q6.)
+
+Q11 (Concept — comparison). Explain the difference between request.form, request.args, and request.files in Flask. For each, state what kind of HTML form/input produces the data they retrieve.
+
+Q12 (Code — file upload with validation). Extend the upload route below so that it only accepts files ending in .jpg, .png, or .jpeg. If the file extension is not allowed, return "File type not allowed" instead of saving it.
+
+python
+@app.route("/upload_image", methods=['POST'])
+def upload_image():
+    file = request.files["myfile"]
+    filename = secure_filename(file.filename)
+    # your validation code here
+    file.save("static/images/" + filename)
+    return "Image saved as " + filename
+
+Q13 (Trace/predict output). Given this route:
+
+python
+@app.route("/calc")
+def calc():
+    a = int(request.args.get('a'))
+    b = int(request.args.get('b'))
+    return str(a + b)
+
+What would be returned if a user visits /calc?a=5&b=3? What HTML form (with method) would correctly trigger this route?
+
+Q14 (Short answer). Why is it generally considered bad practice to use GET to submit a password in a login form?

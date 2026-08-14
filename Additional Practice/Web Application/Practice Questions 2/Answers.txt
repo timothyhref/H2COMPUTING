@@ -1,0 +1,2 @@
+Q7. GET requests are used with forms, however they cannot be used if the server is to be updated with the input. A good example is a search query, it doesn't require any updating of data just fetching, and the input is updated to the query portion of the URL (after ?)
+
