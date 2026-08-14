@@ -1,0 +1,3 @@
+1. enctype = "multipart/form-data" is compulsory for file uploads, without it the file's binary data wont be sent properly and you wont receive it with request.files[]
+2. GET Only retrieves data while POST sends data. Get is appended to a url as query string while post is not sent in the request body. Post is preferred because its more secure and the data can be submitted
+6. The student uses a get method for the route when he needs a post method to get the request. he also doesn't use secure_filename() to get the filename without any malicious things
