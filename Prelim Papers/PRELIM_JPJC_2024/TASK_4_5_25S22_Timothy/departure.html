@@ -1,0 +1,20 @@
+<!doctype html>
+<head>
+    <title>Departure</title>
+</head>
+<body>
+    <table border = 1>
+        <tr>
+            <th>Time (that is, departure time)</th>
+            <th>From (that is, destination location)</th>
+            <th>Flight (that is, flight number)</th>
+        </tr>
+        {% for item in data %}
+        <tr>
+            <td>{{item[0]}}</td>
+            <td>{{item[1]}}</td>
+            <td>{{item[2]}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
