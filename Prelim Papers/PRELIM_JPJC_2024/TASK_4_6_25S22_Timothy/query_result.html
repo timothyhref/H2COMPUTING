@@ -1,0 +1,22 @@
+<!doctype = html>
+<head><title>Query Result</title></head>
+<body>
+    <table border = 2>
+        <tr style = "font:bold;">
+            <th>flightNum</th>
+            <th>departure</th>
+            <th>destination</th>
+            <th>departureTime</th>
+            <th>arrivalTime</th>
+        </tr>
+        <tr>
+            {% for item in data %}
+            <td>{{item[0]}}</td>
+            <td>{{item[1]}}</td>
+            <td>{{item[2]}}</td>
+            <td>{{item[3]}}</td>
+            <td>{{item[4]}}</td>
+            {% endfor %}
+        </tr>
+    <table>
+</body>
