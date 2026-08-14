@@ -11,7 +11,7 @@
 
 ---
 
-### ⚡ About
+### About
 
 This repository contains my H2 Computing work, organised into folders for easy access and revision.
 
