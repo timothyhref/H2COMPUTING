@@ -13,16 +13,6 @@
 
 ### ⚡ About
 
-> **Learn. Code. Debug. Repeat.**
-
 This repository contains my H2 Computing work, organised into folders for easy access and revision.
 
 ---
-
-<p align="center">
-  <b>🧠 THEORY &nbsp;•&nbsp; 💻 CODE &nbsp;•&nbsp; 🗄️ DATABASES &nbsp;•&nbsp; 🌐 WEB</b>
-</p>
-
-<p align="center">
-  <i>One bug at a time.</i>
-</p>
