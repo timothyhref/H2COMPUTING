@@ -1,2 +1,19 @@
 Q7. GET requests are used with forms, however they cannot be used if the server is to be updated with the input. A good example is a search query, it doesn't require any updating of data just fetching, and the input is updated to the query portion of the URL (after ?)
 
+Q10. This matters because a malicious user could name a file something like ../../important_config.py and extract files outside the intended folder (a path traversal vulnerability) — sanitising the filename prevents this.
+
+Q11. request.form retrives a dictionary of all form inputs that were sent through post. in contrast request.args returns a dictionary of the query values after "?" as key value pairs. This is likely form a form submitted with GET method. Lastly, request.files returns a dictionary of pairs where the values are the files submitted in the request
+
+Q12.
+@app.route("/upload_image", methods=['POST'])
+def upload_image():
+    file = request.files["myfile"]
+    filename = secure_filename(file.filename)
+    # your validation code here
+    if filename.split(".")[-1] not in ['jpg','png','jpeg']:
+        return "File type not allowed"
+    file.save("static/images/" + filename)
+    return "Image saved as " + filename
+
+Q13. HTML form with GET method, and it would return a string of "8"
+Q14. It is considered bad practice as the input from the GET form directly appears in the url as a query, this is very unsecure as attackers can direcly incept the url to steal data, in comparison using a POST method form is more secure as it directly encodes the data into the request body.
