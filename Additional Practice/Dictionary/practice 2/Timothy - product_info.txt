@@ -1,0 +1,5 @@
+P001,Wireless Mouse,25.90
+P002,Keyboard,45.50
+P003,USB-C Cable,12.90
+P004,Webcam,59.90
+P005,Headphones,79.90
