@@ -1,0 +1,4 @@
+ProductID,Name,Price,Image
+P001,Apple,1.20,apple.jpg
+P002,Banana,0.80,banana.jpg
+P003,Orange,1.50,orange.jpg

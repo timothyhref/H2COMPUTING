@@ -1,0 +1,14 @@
+<!doctype html>
+<head>
+    <link rel = "stylesheet" href = "{{url_for('static',filename='style.css')}}">
+    <title style = "font:bold;">Shop</title>
+</head>
+<body>
+    <h1>MY ONLINE SHOP<br></h1>
+    {% for item in products %}
+    <div class = "product">
+        <img src ="{{url_for('static',filename = item[3])}}" width = 150px>
+        <p>{{item[1]}}<br>{{"{:.2f}".format(item[2])}}</p>
+    </div>
+    {% endfor %}
+</body>

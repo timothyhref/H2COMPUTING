@@ -1,0 +1,11 @@
+<!doctype html>
+<head>
+    <title style = "font:bold;">Shop</title>
+</head>
+<body>
+    <h3>MY ONLINE SHOP<br></h3>
+    {% for item in products %}
+        <img src ="{{url_for('static',filename = item[3])}}" width = 150px>
+        <p>{{item[1]}}<br>{{"{:.2f}".format(item[2])}}</p>
+    {% endfor %}
+</body>
