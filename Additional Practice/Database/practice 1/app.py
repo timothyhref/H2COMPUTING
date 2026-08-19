@@ -16,12 +16,13 @@ def find_book(book_id):
     conn = sqlite3.connect("bookstore.db")
     cursor = conn.cursor()
     cursor.execute('''SELECT * FROM BOOK WHERE bookID = ?''',(book_id,))
-    result = cursor.fetchall()
+    result = cursor.fetchone()
     conn.close()
-    if result == []:
+    print(result)
+    if result == None:
         return "<h1>Book not found</h1>"
     else:
-        return render_template("index.html",books = result)
+        return render_template("find_book.html",result=result)
 
 @app.route("/expensive")
 def expensive():
@@ -31,6 +32,17 @@ def expensive():
     books = cursor.fetchall()
     conn.close()
     return render_template("index.html",books = books)
+
+@app.route("/author/<author_name>")
+def find_author(author_name):
+    conn = sqlite3.connect("bookstore.db")
+    cursor = conn.cursor()
+    cursor.execute('''SELECT * FROM BOOK WHERE author = ?''',(author_name,))
+    books = cursor.fetchall()
+    if books == []:
+        return "<h1>Author has not published any books present in the database</h1>"
+    else:
+        return render_template("index.html",books=books)
 
 
 if __name__ == "__main__":
