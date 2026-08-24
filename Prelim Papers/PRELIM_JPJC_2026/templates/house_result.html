@@ -1,0 +1,9 @@
+<!doctype html>
+<head><title>House allocation result</title></head>
+<body>
+	{% if result == True %}
+	<p>Teacher {{name}} from {{department}} is already in {{house}} house</p>
+	{% else %}
+	<p>Teacher {{name}} from {{department}} is randomly assigned to {{house}} house</p>
+	{% endif %}
+</body>
