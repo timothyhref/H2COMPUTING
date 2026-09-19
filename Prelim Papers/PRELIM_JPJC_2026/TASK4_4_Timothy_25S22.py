@@ -39,7 +39,7 @@ def display_teachers():
     staff = []
     conn = sqlite3.connect('HOUSEALLOCATION.db')
     cursor = conn.cursor()
-    cursor.execute('''SELECT group_concat(STAFF.name)
+    cursor.execute('''SELECT HOUSE.houseName group_concat(STAFF.name)
     FROM STAFF JOIN HOUSE ON STAFF.houseName = HOUSE.houseName
     GROUP BY HOUSE.houseName 
     ORDER BY HOUSE.houseName ASC''')

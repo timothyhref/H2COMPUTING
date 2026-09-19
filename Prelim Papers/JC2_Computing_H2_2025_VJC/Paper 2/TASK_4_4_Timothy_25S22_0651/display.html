@@ -1,0 +1,15 @@
+<!doctype html>
+<head><title>Bus Services At This Bus Stop</title>
+</head>
+<body>
+    {%if result == False%}
+    <p>The Bus Stop Code Entered Is Invalid</p>
+    {%else%}
+        <table border = 2>
+            <tr><th>Bus Service Number</th><th>Operator</th></tr>
+            {%for item in result%}
+            <tr><td>{{item[0]}}</td><td>{{item[1]}}</td></tr>
+            {%endfor%}
+        </table>
+    {%endif%}
+</body>
