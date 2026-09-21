@@ -1,0 +1,10 @@
+<!doctype html>
+<head>
+    <title>Course Details Search</title>
+</head>
+<body>
+    <form method = "POST">
+        <input type = "text" value = "Enter Customer Name" name="customer_name">
+        <input type = 'submit'>
+    </form>
+</body>

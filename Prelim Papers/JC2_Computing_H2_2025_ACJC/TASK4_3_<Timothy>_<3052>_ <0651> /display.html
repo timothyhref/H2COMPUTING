@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+    <title>Course Details</title>
+</head>
+<body>
+    {% if result == False %}
+    <p>Your name presented no course registrations</p>
+    {%endif%}
+    <table border = 2>
+        <tr><th>Course Name</th><th>Instructor Name</th><th>Has Customer Paid?</th></tr>
+        {% for item in results %}
+        <tr><td>{{item[0]}}</td><td>{{item[1]}}</td><td>{{item[2]}}</td></tr>
+        {%endfor%}
+    </table>
+</body>
